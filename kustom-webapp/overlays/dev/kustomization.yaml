@@ -4,6 +4,6 @@ bases:
 patches:
   - path: replicas.yaml
 
-configMapGenerator:
-- name: mykustom-map
-  env: config.properties
+# configMapGenerator:
+# - name: mykustom-map
+#   env: config.properties
